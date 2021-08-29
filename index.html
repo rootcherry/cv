@@ -38,11 +38,11 @@
 
 <body>
 
-  <!-- Nav Bar -->
-
   <section id="title">
-
+    
     <div class="container-fluid">
+      
+      <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -60,7 +60,7 @@
               <a class="nav-link" href="#">resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
+              <a class="nav-link" href="#footer">contact</a>
             </li>
           </ul>
 
@@ -69,11 +69,19 @@
 
       <!-- Title -->
 
-      <h1 class="title-heading">Hello, I'm <br />
-        <span class="bg-color">Chris</span>
-      </h1>
-      <p>I'm a web developer student from Brazil. I love coding and learning new languages.</p>
-      <span class="text-fuscia-50 ml-1">❤</span>
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Hello, I'm <br />
+            <span class="bg-color">Chris</span>
+          </h1>
+          <p>I'm a web developer student from Brazil. I love coding and learning new languages.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/cat.jpg" alt="cat-img">
+        </div>
+
     </div>
   </section>
 
@@ -83,19 +91,19 @@
 
     <div class="row">
       <div class="pro-box col-lg-4">
-        <i class="fas fa-terminal"></i>
+        <i class="icon fas fa-terminal fa-4x"></i>
         <h3>Project00</h3>
         <p>project00<a href="#"> Git</a></p>
       </div>
 
       <div class="pro-box col-lg-4">
-        <i class="fas fa-file-code"></i>
+        <i class="icon fas fa-file-code fa-4x"></i>
         <h3>Project00</h3>
         <p>project00<a href="#"> Git</a></p>
       </div>
 
       <div class="pro-box col-lg-4">
-        <i class="fas fa-database"></i>
+        <i class="icon fas fa-database fa-4x"></i>
         <h3>Project00</h3>
         <p>project00<a href="#"> Git</a></p>
       </div>
@@ -104,13 +112,22 @@
   </section>
 
   <!-- Favorites -->
-  <ul>
-    <li>#C</li>
-    <li>#C++</li>
-    <li>#JavaScript</li>
-    <li>#Node.js</li>
-  </ul>
 
+  <section id="favorites">
+
+    <div class="container-fluid">
+      
+      <h3>My favorite Languages</h3>
+      <ul>
+        <!-- ❤ -->
+        <li>#C</li>
+        <li>#C++</li>
+        <li>#JavaScript</li>
+        <li>#Node.js</li>
+      </ul>
+    </div>
+  </section>
+ 
   <!-- Footer -->
 
   <footer id="footer">

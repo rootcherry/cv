@@ -2,16 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#title {
-  background-color: #0073cd;
-  /* background-color: #00ff5f; */
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15%;
-}
-
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
@@ -27,6 +17,17 @@ h3 {
 
 p {
   color: #8f8f8f;
+}
+
+
+#title {
+  background-color: #1FAB89 ;
+  /* background-color: #00ff5f #0073cd; */
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
 
 .title-heading {
@@ -65,18 +66,26 @@ p {
   padding: 5%;
 }
 
+.icon {
+  color: #62D2A2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:#1FAB89;
+}
+
+/* Favorites  Section */
+
+#favorites {
+  background-color: #1FAB89;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+/* Footer Section */
 
 #footer {
   padding: 7% 15%;
@@ -85,4 +94,15 @@ p {
 
 .social-icon {
   margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
 }
