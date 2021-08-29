@@ -1,39 +1,45 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.p-color {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
-p {
-  color: #8f8f8f;
-}
+/* Sections */
 
-
-#title {
-  background-color: #1FAB89 ;
-  /* background-color: #00ff5f #0073cd; */
+.colored-section {
+  background-color: #1FAB89;
   color: #fff;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
-
-.title-heading {
-  /* font-family: ; */
-  font-size: 3.5rem;
-  line-height: 1.5;
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -44,7 +50,7 @@ p {
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 1rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -57,13 +63,37 @@ p {
   font-family: "Montserrat-Light", sans-serif;
 }
 
-#pro {
-  padding: 7% 15%;
+/* Title Section */
+
+#title {
+  background-color: #1FAB89 ;
+  color: #fff;
+  text-align: left;
 }
 
-.pro-box {
-  text-align: center;
-  padding: 5%;
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%; 
+  /* transform: rotate(25deg); */
+  /* position: absolute; */
+  right: 30%;
+}
+
+/* Projects Section */
+
+#pro {
+  position: relative;
+}
+
+.pro-title {
+  font-size: 1.2rem;
+}
+
+.pro-box { 
+  padding: 4.5%;
 }
 
 .icon {
@@ -77,20 +107,8 @@ p {
 
 /* Favorites  Section */
 
-#favorites {
-  background-color: #1FAB89;
-  color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
 
 /* Footer Section */
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
 
 .social-icon {
   margin: 20px 10px;
@@ -104,5 +122,10 @@ p {
 
   .title-image {
     position: static;
+    /* transform: rotate(0);   */
   }
 }
+
+/* Colors 
+  #00ff5f #0073cd;
+*/
