@@ -50,7 +50,8 @@ h3 {
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 1rem; 
+  /* 2.5rem */
   font-weight: bold;
 }
 
@@ -107,11 +108,19 @@ h3 {
 
 /* Favorites  Section */
 
+.hello {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  list-style: none;
+}
 
 /* Footer Section */
 
 .social-icon {
   margin: 20px 10px;
+  color: #000;
+  cursor: pointer;
 }
 
 @media (max-width: 1028px) {
